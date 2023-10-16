@@ -1,0 +1,840 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    
+}   
+body{
+    position: relative;
+}
+
+.section .nav-logo {
+    width: 180px;
+}
+header .navbar-section{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    z-index: 999;
+}
+header .navbar-section .collapse ul{
+    margin-left: 162px;
+}
+header .navbar-section .collapse .nav-link{
+    color: #f8f8f8;
+    font-size: 22px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+header .navbar-section .collapse .nav-link:hover{
+    color: #FFCC00;
+}
+
+header.navbar-nav{
+     display: flex;
+     justify-content: center center;
+     text-align: center;
+     
+} 
+header .restaurant-search{
+background-color: #FFCC00;
+border-radius: 0px;
+padding: 11px 13px;
+transition: all ease 0.4s;
+margin-right: 20px;
+}
+header .restaurant-search a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all ease 0.4s;
+    font-size:17px ;
+
+}
+header .restaurant-search:hover {
+background-color: #231900;
+color: #fff;
+}
+header .restaurant-search:hover a {
+color: #fff;
+}
+
+
+/* ======= article section start=====   */
+
+
+article .hero-bg{
+background-image: url(../IMAGES/bg3.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+width: 100%;
+height: 740px;
+
+}
+.hero-bg .order-food{
+    margin: 20px 0px;
+}
+.hero-bg .hero-heding h1{
+    color: #ffffff;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 54px;
+}
+.hero-bg .hero-pragraph p{
+    font-size: 22px;
+    line-height: 34px;
+    width: 100%;
+    opacity: 0.9;
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-transform: lowercase;
+}
+
+
+article .hero-conten{
+    padding-top: 10%;
+    color: #fff;
+   
+}
+
+article .res-hero-srch{
+    background-color: #fff;
+    color: #060606;
+    width: 66%;
+    height: 70px;; 
+}
+
+article .res-hero-srch #s{
+ border: none;
+ width: 90%;
+ border-radius: 0px;
+ 
+}
+article .res-hero-srch ::placeholder{
+font-size: 14px;
+}
+article .res-hero-srch {
+ position: relative;
+}
+article .res-hero-srch .submit-btn{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 25px;
+  background-color: #FFCC00;
+  cursor: pointer;
+  border-radius: 0px;
+}
+article .res-hero-srch .submit-btn i{
+   text-align: center;
+
+}
+article .res-hero-srch label{
+    font-size: 16px;
+    margin-left: 10px;
+}
+article .image-border img{
+    z-index: -1;  
+    margin-top:     83px; 
+}
+
+/* =======home section end ======= */
+/* =======about section start====== */
+.about-section {
+    text-align: center;
+    margin-top: 8%;
+}
+.about-section .top-heading .sub-title{
+font-size: 20px;
+padding: 5px 0px;
+color: #FFCC00;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.about-section .top-heading .head-title{
+    padding-top: 0;
+    margin-bottom: 15px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+
+/* =======about section end======= */
+
+
+ /* ======= Explox The Best Burger Place ===========  */
+.s-call-action {
+    background-image: url(https://marketplace.foodotawp.com/wp-content/uploads/2021/05/promo-11.png);
+    background-position: calc(0);
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    margin-top: 59px;
+    
+    background-attachment: fixed;
+}
+
+.s-call-action .sub-title {
+    /* font-size: 20px; */
+padding: 5px 0px;
+color: #FFCC00;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-top: 90px;
+}
+.s-call-action .s-call-action-content h1 {
+    font-size: 42px;
+    margin: 0 0 10px;
+    color: #231900;
+    line-height: 56px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.s-call-action .s-call-action-content h3 {
+    font-size: 26px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+    color: #231900;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.s-call-action .s-call-action-content p{
+    margin: 0 0 30px;
+    color: #231900;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5em;
+
+}
+.s-call-action .s-call-action-content .btn-theme{
+   background-color: #FFCC00;
+   border-radius: 0px;
+   padding: 10px 14px;
+   transition: all ease .5s ;
+   margin-bottom: 20px;
+
+}
+.s-call-action .s-call-action-content .btn-theme:hover{
+    background-color: #0c0c0b;
+    color: #fff;
+
+}
+.s-call-action .s-call-action-content .btn-select{
+   background-color: #0c0c0b;
+   border-radius: 0px;
+   padding: 10px 14px;
+   color: #fff;
+   margin-left: 20px;
+
+}
+.s-call-action .s-call-action-content .btn-select:hover{
+    background-color: #FFCC00;
+    color: #060606;
+
+}
+
+
+
+
+
+
+
+.Super-Delicious-Deal{
+    margin-top: 7%;
+}
+.Super-Delicious-Deal .sub-title{
+text-align: center;
+color: #FFCC00;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-top: 90px;
+font-size: 20px;
+}
+.Super-Delicious-Deal .head-title{
+    margin: 10px 19px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.Super-Delicious-Deal .row{
+    margin-top: 60px;
+}
+
+.Super-Delicious-Deal .main-box{
+    border: 1px solid #e9e9e9;
+    padding: 20px 1.5rem;
+    background-color: #fff;
+    text-align: left;
+}
+.Super-Delicious-Deal .main-box .uper-box{
+    margin-top: 20px;
+}
+
+.Super-Delicious-Deal .main-box .uper-box a{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    
+
+}
+.Super-Delicious-Deal .main-box .bottom-box p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.Super-Delicious-Deal .main-box .price-box {
+margin-left:0px;
+color: #FFCC00;
+font-size: 23px;
+font-weight: 700;
+
+}
+
+    
+
+/* =======scrolling======= */
+
+.scroller-icons{
+    position: fixed;
+    bottom: 72px;
+    right: 63px;
+    display: none;
+}
+.scroller-icons button{
+    background-color: #FFCC00;
+    font-size: 27px;
+    padding: 4px 14px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.about-section .row .col-md-3 img{
+    width: auto;
+    height: 200px;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-top: 50px;
+
+}
+.about-section .row .col-md-3 h2{
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+/* =========== Get Started Today! ================ */
+
+ .food-section{
+    margin-top: 100px;
+}
+ .food-section{
+    margin-top: 150px;
+}
+ .food-section .delivery-img img{
+   border-radius: 50%;
+   margin-top: 10%;
+   margin-left: 20px;
+}
+
+.food-section .sub-title{
+
+    color: #FFCC00;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 50px;
+    }
+    .food-section .head-title{
+        margin-bottom: 20px;
+        font-size: 42px;
+        line-height: 56px;
+    }
+    .food-section .sub-heading h3{
+        margin:20px 0px;
+        font-size: 32px;
+        
+    }
+
+    .food-section .sub-heading p{
+        font-size: 15px;
+        margin-top: 15px;
+        letter-spacing: 2px; 
+        color: #898888;  
+    }
+    .food-section .food-order-section h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0px;
+    }
+    .food-section .food-order-section p{
+    font-size: 15px;
+    margin: 10px 0px;
+    color: #898888; 
+    }
+  
+    /* ============= What Our Clients Say ==============  */
+
+section .clients-section{
+    background-color: #F2F2F2;
+    margin-top: 8%;
+}
+section .clients-section .food-content{
+  
+   text-align: center;
+    padding-top: 7%;
+}
+section .clients-section .sub-title{
+  
+    color: #FFCC00;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+section .clients-section .head-title{
+  
+    padding-top: 10px;
+    margin-bottom: 15px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 70px;
+}
+section .clients-section .food-carousel{
+    margin-top: 30px;
+}
+section .clients-section .food-carousel p{
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    line-height: 40px;
+}
+
+
+/* our team section */
+.our-team-section{
+    margin-top: 100px;
+    text-align: center;
+    flex-wrap: wrap;
+ }
+ .our-team-section .sub-title{
+    color: #FFCC00;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 20px;
+margin: 10px 0;
+ }
+ .our-team-section .sub-heading{
+    color: #111111;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 30px;
+margin: 10px 0;
+margin-bottom: 20px;
+ }
+ .our-team-section .sub-heading{
+    color: #111111;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 30px;
+margin: 10px 0;
+margin-bottom: 20px;
+ }
+ .our-team-section .col-md-3 h2{
+    margin-top: 20px;
+    font-size: 24px;
+ } 
+ 
+ .our-team-section .col-md-3 img{
+    cursor: pointer;
+ } 
+ 
+ .our-team-section .col-md-3 p{
+    margin-top: 7px;
+    font-size: 20px;
+    color: #FFCC00;
+ } 
+ /* ========= Simple Process ======  */
+.simple-process-section{
+  margin-top: 80px;
+    
+}
+.simple-process-section .background-img{
+ background-image: url(../IMAGES/banner-1.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 380px;
+}
+.simple-process-section .background-img::before{
+    content: "";
+    background-color: #000000;
+    width: 100%;
+    opacity: 5;
+}
+
+/* ============footer section============== */
+
+footer{
+    background-image:url(../IMAGES/dots-new.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    background-color: #f7f9fb;
+}
+footer .section{
+    padding: 50px 0px;
+}
+footer .footer-col-1 p{
+font-size: 16px;
+margin-top: 20px ;
+}
+footer .footer-col-1 .footer-logo img{
+width: 60%;
+}
+footer .footer-col-1 h2{
+font-size: 16px;
+margin-top: 15px;
+font-weight: 700;
+}
+
+
+footer .footer-col-1  span{
+font-size: 16px;
+margin-top: 200px;
+font-weight: 100;
+}
+
+footer .clearfix {
+    margin-top: 30px;
+    
+}
+footer .clearfix i{
+    font-size: 20px;
+    color: #000000;
+    transition: all ease .5s;
+    
+}
+footer .clearfix i:hover{
+    font-size: 20px;
+    color: #FFCC00;
+    
+}
+footer .clearfix a{
+   text-decoration: none;
+   margin-left: 7px;
+}
+
+footer .our-service{
+    margin-top: 50px;
+    /* margin-left: 50px; */
+}
+footer .our-service h2{
+   font-size: 20px;
+   font-weight: 600;
+}
+footer .our-service ul i{
+   font-size: 20px;
+   font-weight: 600;
+   margin-right: 20px;
+   color: #FFCC00;
+}
+footer .our-service ul i:hover{
+  color: #000000;
+}
+footer .our-service ul li{
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    line-height: 45px;
+    transition: all ease .5s;
+    cursor: pointer;
+}
+footer .our-service ul li:hover{
+color: #FFCC00;
+}
+footer .footer-latest .letest-new{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+footer .social-links{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 40px;
+}
+footer .social-links .social-icons {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+}
+
+footer .social-links .social-icons a span {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 1366   1024    768    667   640   576   480    400    375 */
+
+@media(max-width:1366px) {
+    
+    .hero-bg .hero-heding h1 {
+        font-size: 49px;
+    }
+    article .image-border img {
+        display: none;
+    }
+    article .hero-bg {
+       
+        height: 626px;
+    }
+    
+
+}
+@media(max-width:1024px) {
+    
+    header .navbar-section .collapse ul {
+        margin-left: 0px;
+    }
+    .hero-bg .hero-heding h1 {
+        font-size: 40px;
+    }
+    .hero-bg .hero-pragraph p {
+        font-size: 20px;
+    }
+    article .hero-bg {
+       
+        height: 526px;
+    }
+    .s-call-action .s-call-action-content h1 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+    .s-call-action .s-call-action-content h3 {
+        font-size: 24px;
+    }
+    .food-section .sub-heading h3 {
+        margin: 20px 0px;
+        font-size: 24px;
+    }
+    .food-section .head-title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .food-section .food-order-section h2 {
+        font-size: 22px;
+        
+    }
+    section .clients-section .food-carousel p {
+        margin-top: 19px;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        line-height: 34px;
+    }
+    .our-team-section .col-md-3 h2 {
+        margin-top: 18px;
+        font-size: 22px;
+    }
+
+}
+
+
+@media(max-width:768px) {
+    /* .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        background-color: black;
+    }  */
+    .hero-section .container {
+       margin: 0px;
+    }
+    .hero-bg .hero-heding h1 {
+        font-size: 29px;
+    }
+    .hero-bg .hero-pragraph p {
+        font-size: 14px;
+    }
+
+    header .navbar-section{
+        z-index: 1;
+        /* background-color: #f6f6f6; */
+        background: linear-gradient(to right, #141e30, #243b55);
+        position: fixed;
+    }
+    header .restaurant-search {
+        background-color: #FFCC00;
+        border-radius: 0px;
+        padding: 16px 19px;
+        transition: all ease 0.4s;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    header .navbar-section .collapse .nav-link{
+        color: #f2f2f2;
+        font-size: 19px;
+        padding-left: 30px;
+        cursor: pointer;
+        transition: all ease .5s;
+    }
+    .hero-bg .order-food {
+        margin: 48px 0px;
+    }
+}
+@media(max-width:768px) {
+    
+    .hero-bg .order-food {
+        margin: 10px 0px;
+        margin-top: 60px;
+    }
+    .s-call-action .s-call-action-content h1 {
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .s-call-action .s-call-action-content h3 {
+        font-size: 21px;
+        font-weight: 200;
+    }
+    .s-call-action .s-call-action-content p {
+        margin: 0px 0 24px;
+        font-size: 18px;
+    }
+    footer .social-links {
+        
+        margin-left: 0px;
+    }
+}
+
+
+@media(max-width:400px) {
+    
+    .hero-bg .hero-heding h1 {
+        font-size: 25px;
+    }
+    
+    .hero-bg .hero-pragraph p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        font-weight: 5;
+        margin-bottom: 27px;
+    }
+    article .res-hero-srch {
+        background-color: #fff;
+        color: #060606;
+        width: 98%;
+        height: 62px;
+    }
+    article .res-hero-srch .submit-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        font-size: 16px;
+        background-color: #FFCC00;
+        cursor: pointer;
+        border-radius: 0px;
+    }
+    article .res-hero-srch label {
+        font-size: 13px;
+        margin-left: 9px;
+    }
+    .hero-bg .order-food {
+        margin: 10px 0px;
+        margin-top: 106px;
+    }
+
+    .about-section .top-heading .head-title {
+        font-size: 32px;
+        padding-bottom: 0px;
+    }
+    
+    .s-call-action .s-call-action-content h1 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .s-call-action .s-call-action-content h3 {
+        font-size: 18px;
+    }
+
+    .s-call-action .s-call-action-content p {
+        margin: 0px 0 24px;
+        font-size: 14px;
+    }
+    .Super-Delicious-Deal .head-title {
+        margin: 7px 15px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .Super-Delicious-Deal .sub-title {
+       
+        margin-top:50px;
+        font-size: 17px;
+    }
+    .Super-Delicious-Deal .main-box {
+        
+        text-align: center;
+    }
+    section .clients-section .head-title {
+        padding-top: 3px;
+        margin-bottom: 15px;
+        font-size: 28px;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding-bottom: 22px;
+    }
+    section .clients-section .sub-title {
+        font-size: 16px;
+    }
+    .section .nav-logo {
+        width: 136px;
+    }
+
+    .food-section .head-title {
+        font-size: 26px;
+        line-height: 27px;
+    }
+    .food-section .sub-heading h3 {
+        margin: 16px 0px;
+        font-size: 18px;
+    }
+    .food-section .sub-heading p {
+        font-size: 13px;
+        margin-top: 15px;
+        letter-spacing: 2px;
+        color: #898888;
+    }
+}
+
